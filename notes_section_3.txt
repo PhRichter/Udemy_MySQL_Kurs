@@ -1,0 +1,23 @@
+# Creating databases and tables
+
+Starte MySQL: mysql-ctl cli
+
+Zeige Datenbanken: show databases;
+Erstelle Datebank: CREATE DATABASE <Name>;
+Datebank löschen: DROP DATABASE <Name>;
+
+Wähle Datenbank zum Arbeiten aus: USE <Name>;
+Zeige aktive Datenbank: SELECT database();
+
+Tabelle erstellen:
+CREATE TABLE <Name>
+       (
+	<column_name> <data_type>,
+	<column_name> <data_type>
+       );
+
+Tabellen zeigen: SHOW TABLES;
+Spalten zeigen: SHOW COLUMNS FROM <Name>; oder DESC <Name>;
+
+Tabellen löschen: DROP TABLE <Name>;
+
