@@ -1,0 +1,10 @@
+# Inserting Data (and a couple other things)
+
+Dinge einfügen: INSERT INTO <Tabelle>(<Column_A>, ...) VALUES (<Value_A>,...)
+Null verhindern: Beim Erstellen der Tabelle neben der Column NOT NULL einfügen
+Default setzen: Beim Erstellen der Tabelle neben der Column DEFAULT <Value> einfügen
+Warnungen zeigen: SHOW WARNINGS
+
+Primary Key: A Unique Identifier
+Setzen eines primary keys: In der Definition am End einfügen PRIMARY KEY (<Name>)
+Bei INT kann AUTO_INCREMENT gesetzt werden. Dann wird der zugehörige Wert bei jedem neuen Eintrag um eins erhöht, ohne dass dieser Wert beim neuen Eintrag angegeben werden muss.
